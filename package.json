@@ -1,0 +1,28 @@
+{
+  "name": "auto-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testScreen.js",
+  "dependencies": {
+    "casperjs": "^1.1.1",
+    "json-stringify": "^1.0.0",
+    "jsonfile": "^2.3.1",
+    "phantomjs-prebuilt": "^2.1.7",
+    "webpage": "^0.3.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-concurrent": "^2.3.0",
+    "jshint-stylish": "^2.2.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "load-grunt-tasks": "^3.5.0"
+  },
+  "scripts": {
+    "start": "phantomjs scrapProd.js",
+    "screen": "phantomjs testScreen.js",
+    "run": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
